@@ -2,10 +2,12 @@ package com.libsgh.tools.controller;
 
 import com.jfinal.core.Controller;
 
-public class MainController extends Controller{
+public class IndexController extends Controller{
 	
+	/**
+	 * 首页跳转
+	 */
 	public void index() {
-		renderText("Hello JFinal World.");
+		render("index.html");
 	}
-	
 }
