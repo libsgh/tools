@@ -42,21 +42,6 @@ public class MainConfig  extends JFinalConfig{
 		//每分钟执行一次
 		cp.addTask("* * * * *", new GetVpnGate());
 		me.add(cp);
-		int port = 11080;
-		boolean auth = false;
-		Properties properties = new Properties();
-		try {
-			properties.load(ProxyServer.class.getResourceAsStream("/config.properties"));
-			port = Integer.parseInt(properties.getProperty("port"));
-			auth = Boolean.parseBoolean(properties.getProperty("auth"));
-		} catch(Exception e) {
-			System.out.println("load config.properties error, default port 11080, auth false!");
-		}
-		try {
-			ProxyServer.create(port).logging(true).auth(auth).start();
-		} catch (Exception e) {
-			e.printStackTrace();
-		}
 	}
 
 	@Override
@@ -64,5 +49,4 @@ public class MainConfig  extends JFinalConfig{
 		me.add("/api", ApiController.class);
 		me.add("/", IndexController.class);
 	}
-
 }
