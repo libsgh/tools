@@ -11,6 +11,8 @@ public class ApiController extends Controller{
 	
 	public static String listHtml;
 	
+	public static String date;
+	
 	//private String url ="http://www.vpngate.net/";
 	
 	public static  List<String> urls = new ArrayList<String>();
@@ -21,6 +23,7 @@ public class ApiController extends Controller{
 		Map<String, Object> map = new HashMap<String, Object>();
 		map.put("listHtml", listHtml);
 		map.put("urls", urls);
+		map.put("date", date);
 		renderJson(map);
 	}
 

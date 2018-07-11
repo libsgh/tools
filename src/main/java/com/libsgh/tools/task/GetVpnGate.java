@@ -16,6 +16,7 @@ public class GetVpnGate implements Runnable{
 		Document doc;
 		try {
 			doc = Jsoup.connect(ApiController.url).get();
+			ApiController.date = doc.getElementById("Label2").text();
 			Element el = doc.select("#vpngate_inner_contents_td ul").get(1);
 			ApiController.listHtml =  el.toString();
 			Elements els = el.select(".listBigArrow a");
