@@ -1,8 +1,5 @@
 package com.libsgh.tools.config;
 
-import java.util.Properties;
-
-import com.geccocrawler.socks5.ProxyServer;
 import com.jfinal.config.Constants;
 import com.jfinal.config.Handlers;
 import com.jfinal.config.Interceptors;
