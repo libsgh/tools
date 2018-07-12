@@ -9,7 +9,7 @@
 <script src="https://cdn.bootcss.com/bootstrap-table/1.12.1/bootstrap-table.min.js"></script>
 <link href="https://cdn.bootcss.com/bootstrap-table/1.12.1/bootstrap-table.min.css" rel="stylesheet">
 <script src="https://cdn.bootcss.com/bootstrap-table/1.12.1/locale/bootstrap-table-zh-CN.min.js"></script>
-<link rel="shortcut icon" href=" ./img/favicon.ico" /> 
+<link rel="shortcut icon" href=" ./img/favicon.ico" />
 </head>
 <body>
 <div class="panel-body" style="padding-bottom:0px;">
@@ -51,35 +51,6 @@
 </div>
 <p><b>win10 office交流Q群: 107612999<b>&nbsp;<a href="https://www.landiannews.com/" target="_blank">蓝点网</a> &nbsp;<a href="http://msdn.itellyou.cn/" target="_blank">MSDN, 我告诉你</a> &nbsp; 注明：以上均为整理的官方下载地址，下载后请按照微软许可协议使用，本站只是筛选出来最有用的东西方便大家！
 </div>
-<script>
-$.get("./api/vgsites", function(data){
-	$("#vglist").html(data.listHtml)
-	$("#Label2").html(data.date)
-});
-function activeToolFmt(value, row, index){
-	if(value.indexOf("-")>0){
-		return value;
-	}
-	var as = value.split("&&");
-	var html = "";
-	$.each(as, function(i,item){
-		var ss = item.split("/");
-		html+= "<a href='" + value +"' target='_blank'>"+ss[ss.length-1]+"</a>";
-		if(i != as.length-1){
-			html+="&nbsp;&&nbsp;"
-		}
-	});
-	return html;
-}
-function indexFormatter(value, row, index){
-	var option = $("table").bootstrapTable('getOptions');
-	var pageSize = option.pageSize;
-	var pageNumber = option.pageNumber;
-	return pageSize * (pageNumber - 1) + index + 1;
-}
-function vnameFmt(value, row, index){
-	return "<a href='"+row.downUrl+"' target='_blank'>"+value+"</a>"
-}
-</script>
 </body>
+<script src="./js/index.js"></script>
 </html>
