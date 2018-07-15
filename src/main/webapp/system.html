@@ -2,18 +2,20 @@
 <html>
 <head>
 <meta charset="UTF-8">
-<title>windows&office</title>
+<title>常用windows&office镜像|激活工具|常用软件</title>
 <script src="https://cdn.bootcss.com/jquery/3.3.1/jquery.min.js"></script>
 <script src="https://cdn.bootcss.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
 <link href="https://cdn.bootcss.com/bootstrap/3.3.7/css/bootstrap.min.css" rel="stylesheet">
 <script src="https://cdn.bootcss.com/bootstrap-table/1.12.1/bootstrap-table.min.js"></script>
 <link href="https://cdn.bootcss.com/bootstrap-table/1.12.1/bootstrap-table.min.css" rel="stylesheet">
 <script src="https://cdn.bootcss.com/bootstrap-table/1.12.1/locale/bootstrap-table-zh-CN.min.js"></script>
+<link href="https://cdn.bootcss.com/font-awesome/4.7.0/css/font-awesome.min.css" rel="stylesheet">
+<link href="http://www.bootcss.com/p/buttons/css/buttons.css" rel="stylesheet">
 <link rel="shortcut icon" href=" ./img/favicon.ico" />
 </head>
 <body>
 <div class="panel-body" style="padding-bottom:0px;">
-<strong>常用windows&office镜像及激活工具汇总</strong>&nbsp; &nbsp; <a href="https://buildfeed.net/" target="_blank">Windows 版本追踪器</a> &nbsp; <a href="https://technet.microsoft.com/zh-cn/windows/release-info.aspx" target="_blank">Windows 发布信息详细版本</a>
+<strong>常用windows&office镜像|激活工具|常用软件</strong>&nbsp; &nbsp; <a href="https://buildfeed.net/" target="_blank">Windows 版本追踪器</a> &nbsp; <a href="https://technet.microsoft.com/zh-cn/windows/release-info.aspx" target="_blank">Windows 发布信息详细版本</a>
 <div id="custom-toolbar"></div>
 <table id="table" data-toggle="table"
 	data-pagination="true" data-page-size="10"
@@ -21,36 +23,43 @@
 	data-sort-name="id" data-sort-order="asc" data-click-to-select="false"
 	data-id-field="id" data-search="true" data-advanced-search="true" data-toolbar="#custom-toolbar"
 	data-show-refresh="true" data-show-columns="true"
-	data-show-pagination-switch="true" data-url="./download/data.json">
+	data-show-pagination-switch="true" data-url="./download/data.json" data-height="650">
 	<thead>
 		<tr>
 			<th data-field="id" data-formatter="indexFormatter">序号</th>
-			<th data-field="vname" data-formatter="vnameFmt">常用系统/office版本</th>
-			<th data-field="size">系统大小(ISO)</th>
-			<th data-field="sha1">ISO文件SHA-1</th>
+			<th data-field="name" data-formatter="nameFmt">名称</th>
+			<th data-field="size">大小</th>
+			<th data-field="sha1">文件SHA-1</th>
 			<th data-field="date" data-sortable="true">发布时间</th>
 			<th data-field="desc">说明</th>
-			<th data-field="activeTool" data-formatter="activeToolFmt">激活工具</th>
+			<th data-field="downUrl" data-formatter="downUrlFmt">下载</th>
 		</tr>
 	</thead>
 </table>
-<p>
+<!-- <p>
 <strong>其他激活工具</strong><br>
 <a href="./download/AAct_v3.8.6_zh-CHS_Portable.7z" target="_blank">AAct_v3.8.6</a><br>
 <a href="./download/KMSpico.7z" target="_blank">KMSpico v10.2.0</a><br>
-<a href="./download/W10DigitalLicense_v2.6.8.zip" target="_blank">W10数字许可C#版v2.6.8</a><br>
+<a href="./download/W10DigitalLicense_v2.6.8.zip" target="_blank">W10数字许可C#版v2.6.8</a>&nbsp;&nbsp;
+<a href="./download/MicroKMS_Digital_18.6.15.exe" target="_blank">win10数字权利激活工具by萝卜</a><br>
+<a href="./download/Microsoft Toolkit Final pass 123456.rar" target="_blank">Microsoft Toolkit 2.6.7</a><br>
 <br>
-<strong>软碟通</strong>
-<a href="https://pan.baidu.com/s/1_yBLF3mF-mCCGX2__dJswg" target="_blank">UltraISO 9.6.2全功能单文件</a><br>
+<strong>USB启动盘制作工具</strong>
+<a href="https://pan.baidu.com/s/1_yBLF3mF-mCCGX2__dJswg" target="_blank">UltraISO 9.6.2全功能单文件</a>&nbsp;&nbsp;<a href="http://rufus.akeo.ie/downloads/rufus-3.1.exe" target="_blank">Rufus-3.1</a><br>
 <br>
 <strong>微软常用运行库合集</strong>
 链接: <a href="https://pan.baidu.com/s/1ZaLS1O878QfzP7vvzO00xA" target="_blank">MSVBCRT_AIO_2018.06.30_X86+X64</a> 密码: g3ew<br>
-<br>
+<br> -->
 <strong>vpngate.net 的镜像站点列表 (更新于 <span id="Label2"></span> UTC):</strong>
 <div id="vglist">
-</div>
+</div><br>
 <p><b>win10 office交流Q群: 107612999<b>&nbsp;<a href="https://www.landiannews.com/" target="_blank">蓝点网</a> &nbsp;<a href="http://msdn.itellyou.cn/" target="_blank">MSDN, 我告诉你</a> &nbsp; 注明：以上均为整理的官方下载地址，下载后请按照微软许可协议使用，本站只是筛选出来最有用的东西方便大家！
 </div>
+<!-- <nav class="navbar navbar-default navbar-fixed-bottom">
+  <div class="container" style="text-align:center">
+		<p><b>win10 office交流Q群: 107612999<b>&nbsp;<a href="https://www.landiannews.com/" target="_blank">蓝点网</a> &nbsp;<a href="http://msdn.itellyou.cn/" target="_blank">MSDN, 我告诉你</a> &nbsp; 注明：以上均为整理的官方下载地址，下载后请按照微软许可协议使用，本站只是筛选出来最有用的东西方便大家！
+  </div>
+</nav> -->
 </body>
 <script src="./js/index.js"></script>
 </html>

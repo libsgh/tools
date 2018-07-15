@@ -1,152 +1,245 @@
 [
     {
-        "sha1": "e39b9347fc5be4a0548fb15e666fb92e0a965c6e",
-        "date": "2018-04-30",
-        "vname": "Windows 10 v1803 (Business editions) x64",
-        "size": "4.32GB",
-        "downUrl": "ed2k://|file|cn_windows_10_business_editions_version_1803_updated_march_2018_x64_dvd_12063730.iso|4634574848|5674B3586C866EB2F47D7736A1FDE27A|/",
-        "activeTool": "./download/KMSAuto.7z",
+        "sha1": "c5bfbead557529f523443cf22a986717a97989b3",
+        "date": "2018-07-10",
+        "name": "Windows10 x64 消费者版，Version 1803（中文简体）",
+        "size": "4.78GB",
+        "downUrl": "ed2k://|file|cn_windows_10_consumer_edition_version_1803_updated_jul_2018_x64_dvd_12711333.iso|5131444224|2801D74DABE5308DB3870D06AB976BEA|/",
         "id": 1,
         "desc": "包含家庭版、教育版、专业版"
     },
     {
-        "sha1": "82091d67fff5b49726ffc22d35d9c1cbe81dc443",
-        "date": "2018-04-30",
-        "vname": "Windows 10 v1803 (Consumer editions) x64",
-        "size": "4.39GB",
-        "downUrl": "ed2k://|file|cn_windows_10_consumer_editions_version_1803_updated_march_2018_x64_dvd_12063766.iso|4714162176|FB8C05DE594CD7E58D88993652DD2102|",
-        "activeTool": "./download/KMSAuto.7z",
+        "sha1": "092c9cfe8a69a849036c71d7cd2602822b68f747",
+        "date": "2018-07-10",
+        "name": "Windows10 x64 企业版，Version 1803（中文简体）",
+        "size": "4.73GB",
+        "downUrl": "ed2k://|file|cn_windows_10_business_edition_version_1803_updated_jul_2018_x64_dvd_12613133.iso|5075204096|9BE9662C6A1D206D4123556D743BC554|/",
         "id": 2,
         "desc": "包含企业版、教育版、专业版"
     },
     {
         "sha1": "efcf3b81076990951dcfea08ab387e9099813ceb",
         "date": "2017-12-19",
-        "vname": "Windows 10 RS3 v1709 简体中文批量授权版32位",
+        "name": "Windows 10 RS3 v1709 简体中文批量授权版32位",
         "size": "3.63GB",
         "downUrl": "ed2k://|file|cn_windows_10_multi-edition_vl_version_1709_updated_dec_2017_x86_dvd_100406319.iso|3896993792|D533E16A7FF32BEA5851785DFAA09390|/",
-        "activeTool": "./download/KMSAuto.7z",
         "id": 3,
         "desc": "包含专业版、企业版、教育版"
     },
     {
         "sha1": "69DC07E7B7940121027BE4C9B51648FA31D2B6AD",
         "date": "2017-12-19",
-        "vname": "Windows 10 RS3 v1709 简体中文批量授权版64位",
+        "name": "Windows 10 RS3 v1709 简体中文批量授权版64位",
         "size": "4.66GB",
         "downUrl": "ed2k://|file|cn_windows_10_multi-edition_vl_version_1709_updated_dec_2017_x64_dvd_100406208.iso|5007116288|317BDC520FA2DD6005CBA8293EA06DF6|/",
-        "activeTool": "./download/KMSAuto.7z",
         "id": 4,
         "desc": "包含专业版、企业版、教育版"
     },
     {
         "sha1": "0422052F25C9C8DF983F3B287F725860AAB907CF",
         "date": "2016-08-11",
-        "vname": "Windows 10 简体中文企业版2016长期服务版32位",
+        "name": "Windows 10 简体中文企业版2016长期服务版32位",
         "size": "2.62GB",
         "downUrl": "ed2k://|file|cn_windows_10_enterprise_2016_ltsb_x86_dvd_9057089.iso|2817034240|67C3865D03E765BDD4845BA2CB7649F8|/",
-        "activeTool": "./download/KMSAuto.7z",
         "id": 5,
         "desc": "企业版"
     },
     {
         "sha1": "9E405E950890D2A196565BCA35E152F9CFAD296D",
         "date": "2016-08-11",
-        "vname": "Windows 10 简体中文企业版2016长期服务版64位",
+        "name": "Windows 10 简体中文企业版2016长期服务版64位",
         "size": "3.56GB",
         "downUrl": "ed2k://|file|cn_windows_10_enterprise_2016_ltsb_x64_dvd_9060409.iso|3821895680|FF17FF2D5919E3A560151BBC11C399D1|/",
-        "activeTool": "./download/KMSAuto.7z",
         "id": 6,
         "desc": "企业版"
     },
     {
         "sha1": "B1FD75ADFC52550C3E72DB02C8AFB456D404964A",
         "date": "2014-12-15",
-        "vname": "Windows 8.1 With Update3 简体中文企业版32位",
+        "name": "Windows 8.1 With Update3 简体中文企业版32位",
         "size": "2.98GB",
         "downUrl": "ed2k://|file|cn_windows_8.1_enterprise_with_update_x86_dvd_6050645.iso|3199901696|0209A1FDE82A5AC7A248B4CA3F860F2B|/",
-        "activeTool": "./download/KMSAuto.7z",
         "id": 7,
         "desc": "企业版"
     },
     {
         "sha1": "0C1EE95EBB1714B3EE8453F840DF8FCD41B0F766",
         "date": "2014-12-15",
-        "vname": "Windows 8.1 With Update3 简体中文企业版64位",
+        "name": "Windows 8.1 With Update3 简体中文企业版64位",
         "size": "4.02GB",
         "downUrl": "ed2k://|file|cn_windows_8.1_enterprise_with_update_x64_dvd_6050374.iso|4317065216|AC8215A13817CC0EC4EA42E5C92E88B7|/",
-        "activeTool": "./download/KMSAuto.7z",
         "id": 8,
         "desc": "企业版"
     },
     {
         "sha1": "15F67116E6616A70B89EE0079B34E64635FBD8A0",
         "date": "2014-12-15",
-        "vname": "Windows 8.1 With Update3 简体中文专业版64位",
+        "name": "Windows 8.1 With Update3 简体中文专业版64位",
         "size": "4.02GB",
         "downUrl": "ed2k://|file|cn_windows_8.1_pro_vl_with_update_x64_dvd_6050873.iso|4317507584|B0888275B5BD40E67D3F178B84B9A874|/",
-        "activeTool": "./download/KMSAuto.7z",
         "id": 9,
         "desc": "专业版"
     },
     {
         "sha1": "9559E5FB616F8E5F25BAEBF64312AA5B99383771",
         "date": "2014-12-15",
-        "vname": "Windows 8.1 With Update3 简体中文专业版32位",
+        "name": "Windows 8.1 With Update3 简体中文专业版32位",
         "size": "2.98GB",
         "downUrl": "ed2k://|file|cn_windows_8.1_pro_vl_with_update_x86_dvd_6050910.iso|3200301056|B078A986993B7EDD474FD09EB6FF7E1B|/",
-        "activeTool": "./download/KMSAuto.7z",
         "id": 10,
         "desc": "专业版"
     },
     {
         "sha1": "B92119F5B732ECE1C0850EDA30134536E18CCCE7",
         "date": "2011-05-12",
-        "vname": "Windows 7 With SP1 简体中文旗舰版32位",
+        "name": "Windows 7 With SP1 简体中文旗舰版32位",
         "size": "2.47GB",
         "downUrl": "ed2k://|file|cn_windows_7_ultimate_with_sp1_x86_dvd_u_677486.iso|2653276160|7503E4B9B8738DFCB95872445C72AEFB|/",
-        "activeTool": "./download/KMSAuto.7z",
         "id": 11,
         "desc": "旗舰版"
     },
     {
         "sha1": "2CE0B2DB34D76ED3F697CE148CB7594432405E23",
         "date": "2011-05-12",
-        "vname": "Windows 7 With SP1 简体中文旗舰版64位",
+        "name": "Windows 7 With SP1 简体中文旗舰版64位",
         "size": "3.19GB",
         "downUrl": "ed2k://|file|cn_windows_7_ultimate_with_sp1_x64_dvd_u_677408.iso|3420557312|B58548681854236C7939003B583A8078|/",
-        "activeTool": "./download/KMSAuto.7z",
         "id": 12,
         "desc": "旗舰版"
     },
     {
         "sha1": "D142469D0C3953D8E4A6A490A58052EF52837F0F",
         "date": "2008-05-02",
-        "vname": "Windows XP SP3 简体中文专业版32位",
+        "name": "Windows XP SP3 简体中文专业版32位",
         "size": "601.04MB",
         "downUrl": "ed2k://|file|zh-hans_windows_xp_professional_with_service_pack_3_x86_cd_vl_x14-74070.iso|630237184|EC51916C9D9B8B931195EE0D6EE9B40E|/",
-        "activeTool": "MRX3F-47B9T-2487J-KWKMF-RPWBY",
         "id": 13,
         "desc": "专业版"
     },
     {
         "sha1": "E8BC622F881E0907D55D9B1B3C53D1D830E09015",
         "date": "2014-03-18",
-        "vname": "Office Professional Plus 2013 with SP1 (x86 and x64)",
+        "name": "Office Professional Plus 2013 with SP1 (x86 and x64)",
         "size": "1.71GB",
         "downUrl": "ed2k://|file|cn_office_professional_plus_2013_with_sp1_x86_and_x64_dvd_3921921.iso|1838749696|C2C7DCB43293252480A32F91F21DE3B3|/",
-        "activeTool": "https://server.lancdn.com/landian/OfficeToolPlus/OTool.zip",
         "id": 14,
         "desc": "专业版"
     },
     {
         "sha1": "277926A41B472EE38CA0B36ED8F2696356DCC98F",
         "date": "2015-09-22",
-        "vname": "Office Professional Plus 2016 (x86 and x64)",
+        "name": "Office Professional Plus 2016 (x86 and x64)",
         "size": "2.41GB",
         "downUrl": "ed2k://|file|cn_office_professional_plus_2016_x86_x64_dvd_6969182.iso|2588266496|27EEA4FE4BB13CD0ECCDFC24167F9E01|/",
-        "activeTool": "https://server.lancdn.com/landian/OfficeToolPlus/OTool.zip",
         "id": 15,
         "desc": "专业版"
+    },
+    {
+        "sha1": "250AD2A80D8CD54D246C08FBF37319A49D8B97D9",
+        "date": "2018-07-15",
+        "name": "AAct_v3.8.6_zh-CHS_Portable",
+        "size": "1.07 MB",
+        "downUrl": "./download/AAct_v3.8.6_zh-CHS_Portable.7z",
+        "id": 16,
+        "desc": "KMS激活工具"
+    },
+    {
+        "sha1": "05437ED0F09E5F405171C4CF531953EC6636A27C",
+        "date": "2018-07-15",
+        "name": "KMSpico v10.2.0",
+        "size": "2.71 M",
+        "downUrl": "./download/KMSpico.7z",
+        "id": 17,
+        "desc": "KMS激活工具"
+    },
+    {
+        "sha1": "088B1B651CAE1D39A2B696482D3F75DCF3BF9612",
+        "date": "2018-07-15",
+        "name": "KMSAuto Net 2016 v1.5.3 Portable",
+        "size": "3.13 MB",
+        "downUrl": "./download/KMSAuto.7z",
+        "id": 18,
+        "desc": "KMS激活工具"
+    },
+    {
+        "sha1": "1E625810B9F98A55C6FEAFE24D4EDAC7E3CA26E9",
+        "date": "2018-07-15",
+        "name": "MicroKMS_Digital_18.6.15_胡萝卜",
+        "size": "2.70 MB",
+        "downUrl": "./download/MicroKMS_Digital_18.6.15.exe",
+        "id": 19,
+        "desc": "WIN10数字权利激活工具"
+    },
+    {
+        "sha1": "896D84690179DEE12573D58E83794AF31981E96D",
+        "date": "2018-07-15",
+        "name": "Microsoft Toolkit 2.6.7",
+        "size": "3.52 MB",
+        "downUrl": "./download/Microsoft Toolkit Final pass 123456.rar",
+        "id": 20,
+        "desc": "KMS激活工具"
+    },
+    {
+        "sha1": "FA30766787105FB0F484EED720E59C1A2AEF90B3",
+        "date": "2018-07-15",
+        "name": "W10数字许可C#版v2.6.8",
+        "size": "1.93 MB",
+        "downUrl": "./download/W10DigitalLicense_v2.6.8.zip",
+        "id": 21,
+        "desc": "WIN10数字权利激活工具"
+    },
+    {
+        "sha1": "0C075D22B645B5483ADDC3FEC3863B08EEB54655",
+        "date": "2018-07-15",
+        "name": "OEM7",
+        "size": "816 KB",
+        "downUrl": "./download/OEM7.rar",
+        "id": 22,
+        "desc": "OEM激活工具"
+    },
+    {
+        "sha1": "B85F4453507642AC99B6680AA24C85B2E3D15AEC",
+        "date": "2018-07-15",
+        "name": "Office Tool Plus v5.0",
+        "size": "8.463 MB",
+        "downUrl": "https://server.lancdn.com/landian/OfficeToolPlus/OTool.zip",
+        "id": 23,
+        "desc": "辅助增强工具Office Tool Plus v5.0"
+    },
+    {
+        "sha1": "FF1AAA100D20A30758C80D7698EA65C4B710EA18",
+        "date": "2018-07-15",
+        "name": "UltraISO 9.6.2全功能单文件",
+        "size": "1.5 MB",
+        "downUrl": "https://pan.baidu.com/s/1_yBLF3mF-mCCGX2__dJswg",
+        "id": 24,
+        "desc": "USB启动盘制作工具"
+    },
+    {
+        "sha1": "6AD1861D1D8250606A5C1A6D76AD82B67E922821",
+        "date": "2018-07-15",
+        "name": "Rufus-3.1",
+        "size": "994 KB",
+        "downUrl": "http://rufus.akeo.ie/downloads/rufus-3.1.exe",
+        "id": 25,
+        "desc": "USB启动盘制作工具(Windows，Linux，UEFI等)"
+    },
+    {
+        "sha1": "",
+        "date": "2018-07-15",
+        "name": "MSVBCRT_AIO_2018.06.30_X86+X64",
+        "size": "35.2 MB",
+        "downUrl": "https://pan.baidu.com/s/1ikLZVfO-o8pNbYO5O60fXw",
+        "id": 26,
+        "desc": "微软常用运行库合集"
+    },
+    {
+        "sha1": "",
+        "date": "2018-07-13",
+        "name": "WPS Office 2016 专业增强版 v10.8.2.6726",
+        "size": "35.2 MB",
+        "downUrl": "https://pan.baidu.com/s/1GfL03fcq8eAP4pzFGCkddg",
+        "id": 27,
+        "desc": "WPS去广告，优化版"
     }
 ]

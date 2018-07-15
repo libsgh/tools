@@ -2,27 +2,19 @@ $.get("./api/vgsites", function(data){
 	$("#vglist").html(data.listHtml)
 	$("#Label2").html(data.date)
 });
-function activeToolFmt(value, row, index){
-	if(value.indexOf("-")>0){
-		return value;
+function downUrlFmt(value, row, index){
+	if(value.indexOf("pan.baidu.com") > 0){
+		return "<span class='button-wrap'><button class='button button-circle button-tiny' onclick=' window.location.href=\""+value+"\"'><i class='fa fa-cloud'></i></button></span>";
+	}else if(value.indexOf("ed2k") != -1){
+		return "<a href='" + value +"' target='_blank'>ed2k</a>";
+	}else{
+		return "<span class='button-wrap'><button class='button button-circle button-raised button-primary button-tiny' onclick=' window.location.href=\""+value+"\"'><i class='fa fa-download'></i></button></span>";
 	}
-	var as = value.split("&&");
-	var html = "";
-	$.each(as, function(i,item){
-		var ss = item.split("/");
-		html+= "<a href='" + value +"' target='_blank'>"+ss[ss.length-1]+"</a>";
-		if(i != as.length-1){
-			html+="&nbsp;&&nbsp;"
-		}
-	});
-	return html;
 }
 function indexFormatter(value, row, index){
-	var option = $("table").bootstrapTable('getOptions');
-	var pageSize = option.pageSize;
-	var pageNumber = option.pageNumber;
-	return pageSize * (pageNumber - 1) + index + 1;
+	return index + 1;
 }
-function vnameFmt(value, row, index){
-	return "<a href='"+row.downUrl+"' target='_blank'>"+value+"</a>"
+function nameFmt(value, row, index){
+	//return "<a href='"+row.downUrl+"' target='_blank'>"+value+"</a>"
+	return value;
 }
