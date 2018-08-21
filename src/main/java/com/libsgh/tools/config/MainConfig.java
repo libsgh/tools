@@ -35,9 +35,9 @@ public class MainConfig  extends JFinalConfig{
 
 	@Override
 	public void configPlugin(Plugins me) {
-		loadPropertyFile("config.properties");
-		DruidPlugin dp = new DruidPlugin(getProperty("jdbcUrl"), getProperty("root"), getProperty("password"));
-		me.add(dp);
+		//loadPropertyFile("config.properties");
+		//DruidPlugin dp = new DruidPlugin(getProperty("jdbcUrl"), getProperty("root"), getProperty("password"));
+		//me.add(dp);
 		Cron4jPlugin cp = new Cron4jPlugin();
 		//每分钟执行一次
 		cp.addTask("* * * * *", new GetVpnGate());
