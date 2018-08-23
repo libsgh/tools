@@ -7,7 +7,6 @@ import com.jfinal.config.JFinalConfig;
 import com.jfinal.config.Plugins;
 import com.jfinal.config.Routes;
 import com.jfinal.plugin.cron4j.Cron4jPlugin;
-import com.jfinal.plugin.druid.DruidPlugin;
 import com.jfinal.template.Engine;
 import com.libsgh.tools.controller.ApiController;
 import com.libsgh.tools.controller.IndexController;
@@ -35,9 +34,6 @@ public class MainConfig  extends JFinalConfig{
 
 	@Override
 	public void configPlugin(Plugins me) {
-		//loadPropertyFile("config.properties");
-		//DruidPlugin dp = new DruidPlugin(getProperty("jdbcUrl"), getProperty("root"), getProperty("password"));
-		//me.add(dp);
 		Cron4jPlugin cp = new Cron4jPlugin();
 		//每分钟执行一次
 		cp.addTask("* * * * *", new GetVpnGate());
